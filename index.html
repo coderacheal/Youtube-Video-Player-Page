@@ -4,10 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Practice</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>YouTube Video Player</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/larger-player-block.css">
+    <link rel="stylesheet" href="styles/small-player-block.css">
+    <link rel="stylesheet" href="styles/general.css">
 </head>
 <body>
-   <h1>Hello World. This is Queensly and Racheal</h1> 
+    <nav id="nav-bar">
+        <div id="right-side-header">
+            <img id="menu" src="icons/menu.png" alt="">
+            <img id="youtube-icon" src="icons/youtube-icon.png" alt="">
+        </div>
+        <div id="middle-side-header">
+            <input id="search-bar" type="text" placeholder="Search">
+            <button id="search-button">
+                <img id="search-icon" src="icons/search.png" alt="">
+            </button>
+            <button id="microphone-button">
+                <img id="microphone" src="icons/microphone.png" alt="">
+            </button>
+            
+        </div>
+        <div id="left-side-header">
+            <img id="video-player" src="icons/upload.png" alt="">
+            <img id="bell" src="icons/bell.png" alt="">
+            <img id="channel-profile" src="profile/channel-pic.jpg" alt="">
+        </div>
+        
+    
+        
+    </nav>
+    <!-- <iframe id="playing-video" width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+    <div id="large-player-block">
+        <div >
+        <iframe  id="playing-video" width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <div>
+                <p id="video-box">Contributing to Open Source Part I: The Easy Way</p>
+            </div>
+        </div>
+        <div id="video-stats-btn">
+            <div id="creator-div">
+                <img id="creator-profile" src="profile/channel-pic.jpg" alt="">
+            </div>
+            <div id="creator-name">
+                <p>The Odin Project</p>
+                <p>1.11k subscribers</p>
+            </div>
+            <div id="subscribe-div">
+                <button>
+                    Subscribe
+                </button>
+            </div>
+            <div id="likes-div">
+                <button>488</button>
+                <button>0</button>
+                <button>Share</button>
+                <button>...</button>
+            </div>
+        </div>
+        <div id="video-description">
+            <p>68,447 views  Feb 28, 2014</p>
+            <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.</p>
+        </div>
+        </div>
+    </div>
+
+    <div id="small-player-block">
+        <div id="mini-player">
+            <div id="video-title">
+                <img id="recommended-video" src="thumnails/fang resume.webp" alt="">
+            </div>
+            <div id="creator-and-views">
+                <p>SpaceX Falcon Heavy Tribute</p>
+                <p>NevilleAviation</p>
+                <p>1.9M views 1 year ago</p>
+            </div>
+        </div>
+        <div id="recommended-video">
+            <img src="" alt="">
+        </div>
+        <div id="recommended-video"></div>
+    </div>
 </body>
 </html>
