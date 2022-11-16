@@ -1,0 +1,50 @@
+#large-player-block {
+    /* background-color: rgb(183, 147, 147); */
+    /* height: 2000px; */
+    width: 970px;
+    display: inline-block;
+}
+
+#playing-video {
+    margin-left: 150px;
+    width: 800px;
+    height: 500px;
+}
+
+#video-box {
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+#video-description {
+    margin-left: 150px;
+    display: block;
+}
+
+#video-stats-btn {
+    margin-left: 150px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+#creator-div{
+    display: inline-block;
+}
+#creator-profile{
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 50px;
+}
+#creator-name {
+    display: inline-block;
+    width: 180px;
+}
+#subscribe-div {
+    display: inline-block;
+}
+#likes-div {
+    display: inline-block;
+    justify-self: left;
+}

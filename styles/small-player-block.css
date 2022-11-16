@@ -1,0 +1,30 @@
+#small-player-block {
+    /* background-color: aqua; */
+    /* height: 2000px; */
+    width: 510px;
+    display: inline-block;
+    vertical-align: top;
+}
+/* #recommended-video {
+    height: 100px;
+    background-color: bisque;
+    width: 450px;
+    margin-left: 50px;
+
+
+} */
+
+#recommended-video {
+    height: 120px;
+    /* width: 300; */
+}
+#mini-player{
+    vertical-align: top;
+}
+#video-title {
+    display: inline-block;
+}
+#creator-and-views{
+    display: inline-block;
+
+}
