@@ -1,30 +1,141 @@
-#small-player-block {
+#small-player-column { 
     /* background-color: aqua; */
-    /* height: 2000px; */
-    width: 510px;
-    display: inline-block;
-    vertical-align: top;
+    margin-left: 20px;
+    /* width: 410px; */
+    /* display: inline-block; */
+    /* vertical-align: top; */
 }
-/* #recommended-video {
+
+#video-thumbnail {
     height: 100px;
-    background-color: bisque;
-    width: 450px;
-    margin-left: 50px;
-
-
-} */
-
-#recommended-video {
-    height: 120px;
-    /* width: 300; */
+    border-radius: 10px;
 }
 #mini-player{
     vertical-align: top;
+    
 }
-#video-title {
+
+
+
+
+/* Ad-Display */
+#ad-display-div{
+    height: 170px;
+    border: solid;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(225, 225, 225);
+}
+#ad-img{
+    width: 410px;
+    height: 70px;
+    object-fit: cover;
+}
+#add-link-info-div{
+    display: flex;
+    justify-content: space-around;
+}
+#ad-profile{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#ad-hyperlink{
+    margin-top: 10px;
+}
+#add-btn-link-div{
+    margin-top: 20px;
+}
+
+#add-btn-link {
+    padding: 10px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(45, 84, 240);
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+    justify-self: center;
+    border-width: 1px;
+    border-color: rgb(45, 84, 240);;
+}
+
+
+
+
+
+/* Tags */
+
+#tags-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+#tag-1{
+    width: 70px;
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 1px;
+    border: solid;
+    border-color: rgb(238, 238, 238);
+    font-size: 15px;
+}
+#tag{
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 1px;
+    border: solid;
+    border-color: rgb(238, 238, 238);
+
+}
+
+/* Video Player */
+#thumbnail {
     display: inline-block;
 }
+
+#video-title {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(72, 71, 71);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#creator-title-and-stats {
+    margin-top: 5px;
+}
+
 #creator-and-views{
     display: inline-block;
+    vertical-align: top;
+    width: 180px;
 
+}
+
+#creator-name {
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(106, 106, 106);
+    margin-bottom: 0px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+#channel-view-stats {
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(106, 106, 106);
+    margin-top: 2px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+
+#dot-ellipsis{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+#ellipsis-img {
+    height: 13px;
 }

@@ -19,7 +19,7 @@
     flex: 1;
     align-items: center;
     display: flex;
-    max-width: 450px;
+    max-width: 750px;
     margin-left: 180px;
     margin-right: 180px;
 }
@@ -42,13 +42,16 @@
 
 #search-bar {
     height: 34px;
-    width: 0;
+    /* width:; */
     flex: 1;
     font-family: Roboto, Arial;
     border: 2px;
     border-style: solid;
     border-color: rgb(220, 218, 218);
     border-radius: 2px;
+    width: 550px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 
 }
 
@@ -61,10 +64,12 @@
 #search-button  {
     border: 1px;
     border-style: solid;
-    height: 38px;
+    height: 39px;
     width: 65px;
     border-color: rgb(220, 218, 218);
     margin: -1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 
 }
 #search-icon {

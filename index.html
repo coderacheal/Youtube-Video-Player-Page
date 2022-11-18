@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="styles/larger-player-block.css">
     <link rel="stylesheet" href="styles/small-player-block.css">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
 </head>
 <body>
     <nav id="nav-bar">
@@ -35,59 +43,113 @@
     
         
     </nav>
-    <!-- <iframe id="playing-video" width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <div id="page-grid">
 
-    <div id="large-player-block">
-        <div >
-        <iframe  id="playing-video" width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div>
+
+
+        
+        <div id="large-player-column">
+            <div id="playing-video-div">
+                <iframe  id="playing-video" width="550" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" 
+                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
             <div>
-                <p id="video-box">Contributing to Open Source Part I: The Easy Way</p>
+                <div id="video-name-div">
+                <p id="video-name">Contributing to Open Source Part I: The Easy Way</p>
+                </div>
             </div>
-        </div>
-        <div id="video-stats-btn">
-            <div id="creator-div">
-                <img id="creator-profile" src="profile/channel-pic.jpg" alt="">
-            </div>
-            <div id="creator-name">
-                <p>The Odin Project</p>
-                <p>1.11k subscribers</p>
-            </div>
-            <div id="subscribe-div">
-                <button>
-                    Subscribe
-                </button>
+            <div id="video-share-and-like-stats">
+                <div id="creator-div">
+                    <div id="creator-profile-div">
+                        <img id="creator-profile" src="profile/odin.jpg" alt="">
+                    </div>
+                    <div id="subscriber-count-div">
+                        <p id="creator-name">The Odin Project</p>
+                        <p id="subscribers-count">1.11k subscribers</p>
+                    </div>
+                    <div id="subscribe-btn-div">
+                        <button id="subscribe-btn">Subscribe</button>
+                    </div>
             </div>
             <div id="likes-div">
-                <button>488</button>
-                <button>0</button>
-                <button>Share</button>
-                <button>...</button>
+                <div id="likes-div">
+                    <button id="likes">488</button>
+                    <button id="dislikes">0</button>
+                    <button id="share">Share</button>
+                    <button id="clip">Clip</button>
+                    <button id="more">&#8230;</button>
+                </div>
+            </div>
+            <div id="video-description">
+                <p id="decription-text-stats">68,447 views  8 years ago</p>
+                <p id="decription-text">How do you contribute to open source?  In this video, I'll describe the easiest way to
+                        make a simple contribution to an open source project -- without using the command line, a text editor, 
+                        "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open 
+                        source software projects are typically looking for.  As an example, I use submitting a student solution to a web
+                        development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. 
+                        You can find more information about that project at http://theodinproject.com.
+                </p>
+            </div>
+            </div>
+            <div id="comment-session">
+                
             </div>
         </div>
-        <div id="video-description">
-            <p>68,447 views  Feb 28, 2014</p>
-            <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.</p>
-        </div>
-        </div>
-    </div>
 
-    <div id="small-player-block">
-        <div id="mini-player">
-            <div id="video-title">
-                <img id="recommended-video" src="thumnails/fang resume.webp" alt="">
-            </div>
-            <div id="creator-and-views">
-                <p>SpaceX Falcon Heavy Tribute</p>
-                <p>NevilleAviation</p>
-                <p>1.9M views 1 year ago</p>
-            </div>
+
+
+
+
+
+        
+        <div id="small-player-column">
+    
+            <div id="ad-display-div">
+                <div id="thumbnail">
+                    <img id="ad-img" src="thumnails/fang resume.webp" alt="">
+                </div>
+                <div id="add-link-info-div">
+                    <div>
+                        <img id="ad-profile" src="profile/odin.jpg" alt="">
+                    </div>
+                    <div id="ad-hyperlink">
+                        <p> <b>Ad</b>  &#183; xpro.mit.edu/SystemThinking </p>
+                    </div>
+                    <div id='add-btn-link-div'>
+                        <button id="add-btn-link">Enroll</button>
+                    </div>
+                </div>
+            </div> 
+            <div id="tags-div">
+                <div ><button id="tag-1">All</button></div>
+                <div ><button id="tag">Related</button></div>
+                <div ><button id="tag">Billie Eilish</button></div>
+                <div ><button id="tag">Watched</button></div>
+            </div>  
+            <div id="mini-player">
+                <div id="thumbnail">
+                    <img id="video-thumbnail" src="thumnails/fang resume.webp" alt="">
+                </div>
+                <div id="creator-and-views">
+                    <p id="video-title">Your First GitHub Pull Request (in 10 mins)</p>
+                    <p id="creator-name">Jackson Bates</p>
+                    <p id="channel-view-stats">77k views  &#183; 5 years ago</p>
+                </div>
+                <div id="dot-ellipsis">
+                    <img id="ellipsis-img" src="icons/ellipsis.png" alt="">
+                </div>
+            </div>   
         </div>
-        <div id="recommended-video">
-            <img src="" alt="">
-        </div>
-        <div id="recommended-video"></div>
+    
+    
+    
+    
+    
+    
     </div>
+    
+
+
 </body>
 </html>

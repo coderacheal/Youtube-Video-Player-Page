@@ -1,3 +1,10 @@
 body {
-    margin-top: 100px;
+    margin-top: 80px;
+    padding: 0px;
+}
+
+#page-grid {
+    display: grid;
+    grid-template-columns: 920px 450px;
+    margin-right: 20px;
 }
