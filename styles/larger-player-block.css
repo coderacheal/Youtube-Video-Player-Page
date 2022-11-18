@@ -29,11 +29,18 @@
 
 
 #video-share-and-like-stats {
-    /* margin-left: 100px; */
+    margin-left: 100px; 
     /* display: flex; */
     justify-content: space-between;
     margin-top: 0px;
     vertical-align: top;
+    margin-bottom: 15px;
+}
+
+#creator-div{
+    display: inline-block ;
+    vertical-align: top;
+    padding-bottom: 15px;
 }
 #creator-profile-div {
     display: inline-block;
@@ -82,7 +89,8 @@
 
 #likes-div {
     display: inline-block;
-    justify-self: left;
+    justify-self: right;
+    margin-left: 85px;
 }
 #likes{
     padding: 8px;
@@ -143,8 +151,8 @@
 
 
 #video-description {
-    margin-left: 100px; 
-    display: block;
+    /* margin-left: 100px;  */
+    /* display: block; */
     background-color: rgb(235, 234, 234, 0.8);
     border: solid;
     border-width: 1px;
@@ -166,10 +174,7 @@
     font-size: 14px;
     font-family: "YouTube Sans","Roboto",sans-serif;;
 }
-#creator-div{
-    display: inline-block ;
-    vertical-align: top;
-}
+
 
 
 
