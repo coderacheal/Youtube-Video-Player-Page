@@ -20,7 +20,8 @@
 
 /* Ad-Display */
 #ad-display-div{
-    height: 170px;
+    height: 150px;
+    width: 410px;
     border: solid;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -50,7 +51,7 @@
 
 #add-btn-link {
     padding: 10px;
-    width: 80px;
+    width: 100px;
     border-radius: 20px;
     background-color: rgb(45, 84, 240);
     color: white;
@@ -71,6 +72,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    width: 410px;
 }
 #tag-1{
     width: 70px;
@@ -80,6 +82,8 @@
     border: solid;
     border-color: rgb(238, 238, 238);
     font-size: 15px;
+    background-color: black;
+    color: white;
 }
 #tag{
     padding: 10px;
